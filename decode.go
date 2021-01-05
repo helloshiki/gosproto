@@ -288,7 +288,7 @@ func decodeMessage(chunk []byte, st *SprotoType, v reflect.Value) (int, error) {
 		}
 		sf := st.FieldByTag(int(tag.Tag))
 		if sf == nil {
-			fmt.Fprintf(os.Stderr, "sproto<%s>: unknown tag %d\n", st.Name, tag.Tag)
+			//fmt.Fprintf(os.Stderr, "sproto<%s>: unknown tag %d\n", st.Name, tag.Tag)
 			continue
 		}
 		v1 := v.Elem().FieldByIndex(sf.index)

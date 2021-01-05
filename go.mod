@@ -1,3 +1,3 @@
-module github.com/xjdrew/gosproto
+module gosproto
 
 go 1.13

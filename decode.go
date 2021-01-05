@@ -2,7 +2,7 @@ package sproto
 
 import (
 	"fmt"
-	"os"
+	//"os"
 	"reflect"
 )
 
